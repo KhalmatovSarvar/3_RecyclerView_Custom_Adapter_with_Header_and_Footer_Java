@@ -49,7 +49,10 @@ public class CustomAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
-        if(isFooter(position)||isHeader(position))return;
+
+
+
+       if(isFooter(position)||isHeader(position))return;
 
         Member member = members.get(position);
 
